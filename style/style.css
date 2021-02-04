@@ -1,0 +1,138 @@
+:root {
+  --main-bg-color: #eee3e1;
+  --red: #9a0f0f;
+  --black: #290808;
+  --white: #ffffff;
+  --display: 'Righteous', cursive;
+
+  --inline: 'Josefin Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--main-bg-color);
+}
+
+#logo-bar {
+  width: 100vw;
+  height: 75px;
+  background-color: var(--red);
+  position: relative;
+  /* top: 40px; */
+  font-family: var(--display);
+}
+
+.nav {
+  font-family: var(--display);
+  font-size: 2rem;
+  display: flex;
+  position: relative;
+  top: -80px;
+}
+.left-nav {
+  margin-left: 10px;
+  float: left;
+}
+#about-link {
+  list-style: none;
+  margin-left: 30px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+#port-link {
+  list-style: none;
+  margin-left: 30px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+#contact-link {
+  margin-left: 30px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.right-nav {
+  margin-right: 60px;
+  float: right;
+}
+.right-nav li {
+  list-style: none;
+}
+.nav :any-link {
+  text-decoration: none;
+  color: var(--black);
+}
+#logo-text {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  top: -25px;
+}
+#logo-text a:any-link {
+  text-decoration: none;
+  color: var(--black);
+}
+.active-circle {
+  position: relative;
+  text-align: center;
+  color: #290808;
+}
+.active-circle img {
+  position: relative;
+  top: -40px;
+
+  /* transform: translateY(-100px); */
+  opacity: 0;
+}
+.active img {
+  /* transform: translateY(-40px); */
+  opacity: 1;
+}
+#port-circle {
+  margin-left: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.circle-side {
+  position: absolute;
+  left: 0px;
+}
+.dark-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+
+.frame img {
+  margin-top: 50px;
+  max-width: 250px;
+  border: 10px solid var(--black);
+  border-radius: 50%;
+}
+.bio h1 {
+  font-family: var(--inline);
+  font-weight: 700;
+}
+.bio p {
+  font-family: var(--inline);
+  font-weight: 400;
+  font-size: 1.5rem;
+  max-width: 50vw;
+}
