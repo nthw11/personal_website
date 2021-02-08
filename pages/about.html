@@ -2,55 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kreon&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/style/index.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../style/style.css" />
-    <title>NTHW | ABOUT</title>
+    <title>NTHW | HOME</title>
   </head>
+  
   <body>
-    <nav>
-      <div id="logo-bar">
-        <h1 id="logo-text"><a href="pages/index.html">NTHW</a></h1>
-      </div>
-
-      <ul class="nav left-nav">
-        <div class="active-circle active" id="about-circle">
-          <img src="../assets/active-circle.svg" alt="active" />
-          <li id="about-link"><a href="pages/about.html">ABOUT</a></li>
-        </div>
-
-        <div class="active-circle" id="port-circle">
-          <img src="../assets/active-circle.svg" alt="active" />
-          <li id="port-link"><a href="pages/portfolio.html">PORTFOLIO</a></li>
-        </div>
-      </ul>
-      <ul class="nav right-nav">
-        <div class="active-circle" id="contact-circle">
-          <img src="../assets/active-circle.svg" alt="active" />
-          <li id="contact-link"><a href="pages/contact.html">CONTACT</a></li>
-        </div>
-      </ul>
-    </nav>
-
-    <div class="circle-side">
-      <div class="dark-circle"></div>
-      <div class="dark-circle"></div>
-      <div class="dark-circle"></div>
-      <div class="dark-circle"></div>
-    </div>
-    <main>
-      <h1>about me</h1>
-    </main>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="/css/nav.css">
+<nav>
+  <a id="nthw-logo" href="index.html">NTHW</a>
+  <ul class="nav-bar">
+    <li class="navbar-link">
+      <a class="active" href="about.html">About</a>
+    </li>
+    <li class="navbar-link">
+      <a  href="portfolio.html"
+        >Portfolio</a
+      >
+    </li>
+    <!-- <li class="navbar-link">
+      <a href="/blog">Blog</a>
+    </li> -->
+    <li class="navbar-link">
+      <a href="contact.html">Contact</a>
+    </li>
+  </ul>
+  <ul class="nav-mini-bar">
+    <li class="navbar-link">
+      <a class="active" href="about.html">About</a>
+    </li>
+    <li class="navbar-link">
+      <a  href="portfolio.html"
+        >Portfolio</a
+      >
+    </li>
+    <!-- <li class="navbar-link">
+      <a  href="/blog/">Blog</a>
+    </li> -->
+    <li class="navbar-link">
+      <a  href="contact.html">Contact</a>
+    </li>
+  </ul>
+  </ul>
+</nav>
+<div class='body about-page'>
+  <h1>About me</h1>
+  <div id='info'>
+    <p>
+      Prior to the pandemic I spent the past 15 years working in hotel and
+      event AV, but the lockdown has revealed the live event industry to be
+      particularly vulnerable.
+    </p>
+    <p>
+      I put the intervening time to good use, teaching myself to code - a
+      skill that is both pandemic-proof and also future-proof. And, I am
+      happy to find, I love it!
+    </p>
+    <p>
+      Focusing primarily on JavaScript, my education has come from a wide
+      array of places, from FreeCodeCamp to the Odin Project to countless
+      hours of YouTube and Udemy tutorials to a variety of blog posts and
+      podcasts. This community is wonderful and I am excited to join it!
+    </p>
+    <p>Thank you for your interest!</p>
+  </div>
+</div>
+<div class="footer">
+  <div class="contact-info">
+    <h3 id="name">Nathaniel Wallace</h3>
+    <h3 id="email"><a href="mailto:nthw.dev@gmail.com">nthw.dev@gmail.com</a></h3>
+    <h3 id="phone">919.561.6904</h3>
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/nthw11" target="_blank" rel="noreferrer" class="footer-social-icons"><img src="/assets/github.svg" alt="github"></a>
+    <a href="https://www.linkedin.com/in/nthw" target="_blank" rel="noreferrer" class="footer-social-icons"><img src="/assets/linkedin.svg" alt="linkedin"></a>
+  </div>
+  <h4 id="footer-copyright">2021 &copy; NTHW</h4>
+</div>
+</body>
+</html>
   </body>
 </html>

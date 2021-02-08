@@ -2,65 +2,75 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kreon&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/style/index.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../style/style.css" />
-    <title>NTHW</title>
+    <title>NTHW | HOME</title>
   </head>
+  
   <body>
+    <link rel="stylesheet" href="/css/nav.css">
     <nav>
-      <div id="logo-bar">
-        <h1 id="logo-text"><a href="pages/index.html">NTHW</a></h1>
-      </div>
-
-      <ul class="nav left-nav">
-        <div class="active-circle" id="about-circle">
-          <img src="..assets/active-circle.svg" alt="active" />
-          <li id="about-link"><a href="pages/about.html">ABOUT</a></li>
-        </div>
-
-        <div class="active-circle" id="port-circle">
-          <img src="../assets/active-circle.svg" alt="active" />
-          <li id="port-link"><a href="pages/portfolio.html">PORTFOLIO</a></li>
-        </div>
+      <a id="nthw-logo-active"  href="index.html">NTHW</a>
+      <ul class="nav-bar">
+        <li class="navbar-link">
+          <a  href="about.html">About</a>
+        </li>
+        <li class="navbar-link">
+          <a  href="portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <!-- <li class="navbar-link">
+          <a href="/blog">Blog</a>
+        </li> -->
+        <li class="navbar-link">
+          <a href="contact.html">Contact</a>
+        </li>
       </ul>
-      <ul class="nav right-nav">
-        <div class="active-circle" id="contact-circle">
-          <img src="../assets/active-circle.svg" alt="active" />
-          <li id="contact-link"><a href="pages/contact.html">CONTACT</a></li>
-        </div>
+      <ul class="nav-mini-bar">
+        <li class="navbar-link">
+          <a href="about.html">About</a>
+        </li>
+        <li class="navbar-link">
+          <a  href="portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <!-- <li class="navbar-link">
+          <a  href="/blog/">Blog</a>
+        </li> -->
+        <li class="navbar-link">
+          <a  href="contact.html">Contact</a>
+        </li>
+      </ul>
       </ul>
     </nav>
-    <div class="circle-side">
-      <div class="dark-circle"></div>
-      <div class="dark-circle"></div>
-      <div class="dark-circle"></div>
-      <div class="dark-circle"></div>
-    </div>
-    <main>
-      <div class="bio">
-        <div class="frame">
-          <img src="../assets/bio-pic.jpg" alt="bio picture" />
-        </div>
-        <h1>Nathaniel Wallace</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-          excepturi eos enim necessitatibus, qui corporis ducimus consequatur
-          tempora neque tempore pariatur ea asperiores eveniet maxime nemo?
-          Accusantium temporibus natus aspernatur!
-        </p>
-      </div>
-    </main>
-    <script src="app.js"></script>
+<div class="headline">
+  <h1>Nathaniel Wallace</h1>
+</div>
+<div class="home-page">
+  <h1 class="header">
+    Self-taught full-stack web developer based in Raleigh, North Carolina
+  </h1>
+  <div id="red-portrait">
+    <img src="/assets/red-portrait02.jpg" alt="">
+  </div>
+</div>
+<div class="footer">
+  <div class="contact-info">
+    <h3 id="name">Nathaniel Wallace</h3>
+    <h3 id="email"><a href="mailto:nthw.dev@gmail.com">nthw.dev@gmail.com</a></h3>
+    <h3 id="phone">919.561.6904</h3>
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/nthw11" target="_blank" rel="noreferrer" class="footer-social-icons"><img src="/assets/github.svg" alt="github"></a>
+    <a href="https://www.linkedin.com/in/nthw" target="_blank" rel="noreferrer" class="footer-social-icons"><img src="/assets/linkedin.svg" alt="linkedin"></a>
+  </div>
+  <h4 id="footer-copyright">2021 &copy; NTHW</h4>
+</div>
+</body>
+</html>
   </body>
 </html>

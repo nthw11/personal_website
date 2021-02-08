@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@200;300;400;600;900&family=Staatliches&display=swap');
+/* 
+font-family: 'Bebas Neue', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+* {
+  background-color: #e04038;
+  margin: 0;
+
+  color: #222;
+  font-size: 20px;
+}
+* h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+}
+.headline {
+  width: 70%;
+  margin: auto;
+}
+.headline h1 {
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 2rem;
+  color: #222;
+  margin: 20px;
+}
+.home-page {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+.header {
+  width: 450px;
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 20px;
+}
+#red-portrait img {
+  width: 250px;
+  /* height: 300px; */
+  border: 5px solid #000;
+  border-radius: 150px;
+}
+#info {
+  padding-bottom: 65px;
+  border-top: 10px solid #222;
+  margin-bottom: 65px;
+}
+.about-page {
+  width: 55%;
+  margin: auto;
+}
+.about-page h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  color: #222;
+}
+.about-page p {
+  padding: 10px 15px 25px 15px;
+  /* background-color: #fdd; */
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.port-list img {
+  width: 350px;
+  border-top: 5px solid #222;
+  display: flex;
+}
+.port-item {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 45px;
+  align-items: center;
+}
+
+.project-descript {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+.port-item a:any-link {
+  text-decoration: none;
+}
+.port-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-lang {
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 50px;
+}
+nav {
+  /* height: 150px; */
+  max-width: 100%;
+}
+.nav-mini-bar {
+  display: none;
+}
+#nthw-logo {
+  font-family: 'Staatliches', cursive;
+  font-size: 8rem;
+  color: #222;
+
+  text-decoration: none;
+  position: relative;
+  top: -25px;
+  /* float: left; */
+}
+#nthw-logo-active {
+  font-family: 'Staatliches', cursive;
+  font-size: 8rem;
+  color: #fff;
+
+  text-decoration: none;
+  position: relative;
+  top: -25px;
+  /* float: left; */
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  flex-shrink: 3;
+}
+
+.nav-bar li {
+  list-style: none;
+  margin-right: 30px;
+  font-family: 'Bebas Neue', cursive;
+  color: #222;
+}
+.nav-bar a:any-link {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+@media (max-width: 1040px) {
+  .nav-bar a:any-link {
+    display: none;
+  }
+}
+@media (max-width: 1040px) {
+  .nav-mini-bar {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-size: 3rem;
+    margin-right: 20px;
+    margin-top: 20px;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #222;
+  }
+}
+@media (max-width: 1040px) {
+  .nav-mini-bar a:any-link {
+    text-decoration: none;
+  }
+}
+.navbar-link .active {
+  color: #fff;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  /* border-top: 2px solid #222; */
+}
+.social-icons {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
+}
+#footer-copyright {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  font-family: 'Bebas Neue', cursive;
+  color: #222;
+  font-size: 0.8rem;
+  align-self: end;
+  justify-self: end;
+  /* float: right; */
+  margin-right: 10px;
+}
+
+.footer-social-icons img {
+  color: #222;
+  width: 20px;
+  margin-right: 20px;
+  stroke: #222;
+}
+.contact-info {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 10px;
+  font-family: 'Source Sance Pro', sans-serif;
+  font-size: 1rem;
+  color: #222;
+}
+#email a:any-link {
+  text-decoration: none;
+}
+#email #name #phone {
+  margin-bottom: 20px;
+}
+.contact-page h2 {
+  font-family: 'Bebas Neue', cursive;
+
+  color: #222;
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+.contact-page a:any-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
