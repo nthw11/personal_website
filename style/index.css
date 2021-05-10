@@ -20,8 +20,9 @@ font-family: 'Staatliches', cursive; */
   margin: auto;
 }
 .headline h1 {
-  font-family: 'Source Sance Pro', sans-serif;
-  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-size: 2.5rem;
   color: #222;
   margin: 20px;
 }
@@ -33,7 +34,7 @@ font-family: 'Staatliches', cursive; */
 }
 .header {
   width: 450px;
-  font-family: 'Source Sance Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
   color: #fff;
   margin: 20px;
@@ -61,7 +62,7 @@ font-family: 'Staatliches', cursive; */
 .about-page p {
   padding: 10px 15px 25px 15px;
   /* background-color: #fdd; */
-  font-family: 'Source Sance Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
   color: #fff;
@@ -94,7 +95,7 @@ font-family: 'Staatliches', cursive; */
   align-items: center;
 }
 .project-lang {
-  font-family: 'Source Sance Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   color: #fff;
@@ -148,29 +149,6 @@ nav {
   text-decoration: none;
 }
 
-@media (max-width: 1040px) {
-  .nav-bar a:any-link {
-    display: none;
-  }
-}
-@media (max-width: 1040px) {
-  .nav-mini-bar {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    font-size: 3rem;
-    margin-right: 20px;
-    margin-top: 20px;
-    list-style: none;
-    font-family: 'Bebas Neue', cursive;
-    color: #222;
-  }
-}
-@media (max-width: 1040px) {
-  .nav-mini-bar a:any-link {
-    text-decoration: none;
-  }
-}
 .navbar-link .active {
   color: #fff;
 }
@@ -215,7 +193,7 @@ nav {
   grid-column-start: 1;
   grid-column-end: 2;
   margin-left: 10px;
-  font-family: 'Source Sance Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   color: #222;
 }
@@ -235,4 +213,101 @@ nav {
 .contact-page a:any-link {
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+@media (max-width: 1040px) {
+  #red-portrait img {
+    width: 200px;
+    /* height: 300px; */
+    border: 5px solid #000;
+    border-radius: 150px;
+  }
+}
+@media (max-width: 1040px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 1040px) {
+  .nav-mini-bar {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-size: 3rem;
+    margin-right: 20px;
+    margin-top: 20px;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #222;
+  }
+}
+@media (max-width: 1040px) {
+  .nav-mini-bar a:any-link {
+    text-decoration: none;
+  }
+}
+@media (max-width: 1040px) {
+  .header {
+    width: 450px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-mini-bar {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-size: 2rem;
+    margin-right: auto;
+    margin-top: 20px;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #222;
+  }
+}
+@media (max-width: 575px) {
+  #red-portrait img {
+    width: 100px;
+    /* height: 300px; */
+    border: 5px solid #000;
+    border-radius: 150px;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-mini-bar a:any-link {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    width: 450px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    margin: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  #nthw-logo #nthw-logo-active {
+    font-size: 3rem imp !important;
+  }
+}
+@media (max-width: 575px) {
+  .nav-mini-bar {
+    flex-direction: row;
+    float: left;
+  }
 }
